@@ -26,10 +26,10 @@ var natureNouns = []string{
 	"darkness", "snowflake", "silence", "sound", "sky", "shape", "surf",
 	"thunder", "violet", "wildflower", "wave", "water", "resonance",
 	"sun", "wood", "dream", "cherry", "tree", "fog", "frost", "voice", "paper",
-	"frog", "smoke", "star", "sierra", "castle", "fortress", "tiger", "day",
+	"frog", "smoke", "star", "sierra", "castle", "fortress", "day",
 	"sequoia", "cedar", "wrath", "blessing", "spirit", "nova", "storm", "burst",
-	"protector", "drake", "dragon", "knight", "fire", "king", "jungle", "queen",
-	"giant", "elemental", "throne", "game", "weed", "stone", "apogee", "bang",
+	"knight", "fire", "jungle", "oak",
+	"elemental", "stone", "apogee", "bang",
 	"cluster", "corona", "cosmos", "equinox", "horizon", "light", "nebula",
 	"solstice", "spectrum", "universe", "magnitude", "parallax",
 }
