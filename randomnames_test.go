@@ -34,6 +34,20 @@ func TestAnimal(t *testing.T) {
 	}
 }
 
+func TestAnimalFromSeed(t *testing.T) {
+	name := AnimalFromStringSeed("foo")
+	if name.Adjective != "wonderful" || name.Noun != "magpie" {
+		t.Error("Expected seed 1 to give wonderful magpie as name from seed foo")
+	}
+}
+
+func TestNatureFromSeed(t *testing.T) {
+	name := NatureFromStringSeed("foo")
+	if name.Adjective != "rough" || name.Noun != "spirit" {
+		t.Error("Expected seed 1 to give rough spirit as name from seed foo")
+	}
+}
+
 func TestSeed(t *testing.T) {
 	source := rand.NewSource(1)
 	generator := rand.New(source)
