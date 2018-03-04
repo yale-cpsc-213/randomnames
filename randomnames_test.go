@@ -16,20 +16,20 @@ func contains(stringSlice []string, searchString string) bool {
 
 func TestNature(t *testing.T) {
 	name := Nature()
-	if contains(natureAdjectives, name.adjective) == false {
+	if contains(natureAdjectives, name.Adjective) == false {
 		t.Error("Expected to get valid adjective")
 	}
-	if contains(natureNouns, name.noun) == false {
+	if contains(natureNouns, name.Noun) == false {
 		t.Error("Expected to get valid noun")
 	}
 }
 
 func TestAnimal(t *testing.T) {
 	name := Animal()
-	if contains(animalAdjectives, name.adjective) == false {
+	if contains(animalAdjectives, name.Adjective) == false {
 		t.Error("Expected to get valid adjective")
 	}
-	if contains(animalNouns, name.noun) == false {
+	if contains(animalNouns, name.Noun) == false {
 		t.Error("Expected to get valid noun")
 	}
 }
@@ -38,7 +38,7 @@ func TestSeed(t *testing.T) {
 	source := rand.NewSource(1)
 	generator := rand.New(source)
 	name := AnimalFromGenerator(generator)
-	if name.adjective != "blushing" || name.noun != "crow" {
+	if name.Adjective != "blushing" || name.Noun != "crow" {
 		t.Error("Expected seed 1 to give blushing cow as first name")
 	}
 }

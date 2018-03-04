@@ -14,13 +14,13 @@ func init() {
 
 // Name holds an adjective and noun
 type Name struct {
-	adjective string
-	noun      string
+	Adjective string
+	Noun      string
 }
 
 // nameMatches tests if two names are the same
 func nameMatches(name1 Name, name2 Name) bool {
-	if name1.noun == name2.adjective && name1.noun == name2.noun {
+	if name1.Adjective == name2.Adjective && name1.Noun == name2.Noun {
 		return true
 	}
 	return false
