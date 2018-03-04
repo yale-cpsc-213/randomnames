@@ -25,7 +25,7 @@ var natureNouns = []string{
 	"flower", "firefly", "feather", "grass", "haze", "mountain", "night", "pond",
 	"darkness", "snowflake", "silence", "sound", "sky", "shape", "surf",
 	"thunder", "violet", "wildflower", "wave", "water", "resonance",
-	"sun", "wood", "dream", "cherry", "tree", "fog", "frost", "voice", "paper",
+	"sun", "birch", "dream", "cherry", "tree", "fog", "frost", "voice", "paper",
 	"frog", "smoke", "star", "sierra", "castle", "fortress", "day",
 	"sequoia", "cedar", "wrath", "blessing", "spirit", "nova", "storm", "burst",
 	"knight", "fire", "jungle", "oak",
