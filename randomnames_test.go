@@ -53,3 +53,11 @@ func TestUnique(t *testing.T) {
 		t.Error("Expected to get a unique name")
 	}
 }
+
+func TestMatches(t *testing.T) {
+	name1 := Name{"blushing", "meerkat"}
+	name2 := Name{"blushing", "meerkat"}
+	if nameMatches(name1, name2) != true {
+		t.Error("Expected names to match")
+	}
+}
